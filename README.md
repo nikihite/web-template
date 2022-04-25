@@ -20,11 +20,9 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
     <div>
       <button></button>
     </div>
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
+    <div>
+    results
+    </div>
 </div>
 
 
@@ -37,7 +35,7 @@ I need a parent div to wrap the child div's in
 The child div's will hold the shell image
 I need the shell image to hide the ball
 I need the buttons bellow the images so the user can guess
-I need the unordered list to dislay, Wins, Losses and Total so the user can see if they've won or lost and how many times they've guessed total.
+I need to use a div to dislay, Wins, Losses and Total so the user can see if they've won or lost and how many times they've guessed total.
 
 1) **Once we know _why_ we need each element, think about how to implement the "Why" as a "How" (i.e., `resultsEl.textContent = newResults`)**
 getElementById, to find the html element and grab it.

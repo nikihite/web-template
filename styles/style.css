@@ -63,8 +63,10 @@ header {
 
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2.0rem;
     font-weight: bold;
+    color: rgb(212, 52, 132);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .gutter-right {
@@ -99,4 +101,9 @@ footer {
     width: 200px;
     display: flex;
     flex-direction: column;
+    margin: 20px;
+}
+
+.results {
+    font-size: 1.5rem;
 }

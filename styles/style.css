@@ -6,7 +6,7 @@ body {
     --color2: white;
     --color3: white;
     --color4: white;
-    --color5: white;
+    --color5: rgba(233, 165, 201, 0.998);
     
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
         
@@ -37,6 +37,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    background-color: black;
 }
 
 section {
@@ -63,10 +64,10 @@ header {
 
 
 h2 {
-    font-size: 2.0rem;
+    font-size: 2.5rem;
     font-weight: bold;
-    color: rgb(212, 52, 132);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(228, 28, 135);
+    font-family: cursive;
 }
 
 .gutter-right {
@@ -91,33 +92,6 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
-
-.shells {
-    display: flex;
-    flex-direction: row;
-}
-
-.shell {
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-}
-
 .results {
-    font-size: 1.5rem;
-}
-
-.ball {
-    z-index: 10;
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    bottom: 250px;
-    background-color: red;
-    border-radius: 50%;
-    box-shadow: 5px -2px 5px rgba(0, 0, 0, 0.6);
-}
-div.reveal {
-    display: block;
+    color: rgb(224, 12, 125);
 }

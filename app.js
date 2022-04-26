@@ -18,8 +18,6 @@ button1.addEventListener('click', () => {
     shell2.classList.remove('reveal');
     shell3.classList.remove('reveal');
 
-    console.log('Clicking button 1');
-
     const randomShell = Math.ceil(Math.random() * 3);
     console.log('the random shell is', randomShell);
 
@@ -45,15 +43,13 @@ button2.addEventListener('click', () => {
     shell2.classList.remove('reveal');
     shell3.classList.remove('reveal');
 
-    console.log('clicking button 2');
-
     const randomShell = Math.ceil(Math.random() * 3);
     console.log('the random shell is', randomShell);
 
-    if (randomShell === 1) {
+    if (randomShell === 2) {
         shell1.classList.add('reveal');
         wins++;
-    } else if (randomShell === 2) {
+    } else if (randomShell === 1) {
         shell2.classList.add('reveal');
         losses++;
     } else {
@@ -72,12 +68,10 @@ button3.addEventListener('click', () => {
     shell2.classList.remove('reveal');
     shell3.classList.remove('reveal');
 
-    console.log('clicking button 3');
-
     const randomShell = Math.ceil(Math.random() * 3);
     console.log('the random shell is', randomShell);
 
-    if (randomShell === 1) {
+    if (randomShell === 3) {
         shell1.classList.add('reveal');
         wins++;
     } else if (randomShell === 2) {

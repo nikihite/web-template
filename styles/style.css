@@ -104,6 +104,22 @@ footer {
     margin: 20px;
 }
 
+.shell img {
+    width: 100%;
+    z-index: 20;
+}
+
 .results {
     font-size: 1.5rem;
+}
+
+.ball {
+    z-index: 10;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    bottom: 265px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 5px -2px 5px rgba(0, 0, 0, 0.6);
 }
